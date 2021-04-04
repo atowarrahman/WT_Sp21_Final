@@ -2,7 +2,7 @@
     $db_server="localhost";
     $db_user="root";
     $db_pass="";
-    $db_name="Lab_2";
+    $db_name="WT_L";
 
     function execute($query){
         global $db_server,$db_user,$db_pass,$db_name;
@@ -10,7 +10,7 @@
         mysqli_query($conn,$query);
     }
 
-    function get $query){
+    function get ($query){
         global $db_server,$db_user,$db_pass,$db_name;
         $conn = mysqli_connect ($db_server,$db_user,$db_pass,$db_name);
         $res = mysqli_query($conn,$query);
